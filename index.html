@@ -9,12 +9,27 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="relative container mx-auto bg-red-500 p-6">
+    <nav class="relative container mx-auto  p-6">
         <!-- flex container  -->
-        <div class="flex items-center justify-between"></div>
-        <div class="p-2"></div>
-        <img src="" alt="">
+        <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="p-2">
+          <img src="./img/logo.svg" alt="">
         </div>
+        <!-- menu -->
+        <div class="md:flex space-x-6 hidden">
+          <a href="#Home" class="hover:text-darkGrayishBlue">Home</a>
+          <a href="#Pricing">Pricing</a>
+          <a href="#About us">About us</a>
+          <a href="#Careers">Careers</a>
+          <a href="#product">Product</a>
+        </div>
+        <!-- button  -->
+        <a href="#" 
+        class="md:block p-3 px-6 pt-2 text-white 
+        bg-brightRed hover:bg-brightRedLight rounded-full baseline hidden">Get started</a>
+        </div>
+      </div>
     </nav>
   </body>
 </html>
